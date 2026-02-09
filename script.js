@@ -171,8 +171,8 @@ const projects = [
         description: 'Blablabla',
         github: 'https://github.com/slayzbs/',
         stars: 54
-    },
-   ]
+    }
+];
 
 /* ==========================================
    RENDER PROJECTS
