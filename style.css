@@ -2,7 +2,7 @@
    NAVIGATION
    ========================================== */
 
-#site-nav[data-astro-cid-ymhdp2rl] {
+#site-nav {
     z-index: 1000;
     justify-content: center;
     margin-bottom: 1rem;
@@ -15,13 +15,13 @@
     top: 0.75rem;
 }
 
-#site-nav[data-astro-cid-ymhdp2rl].nav-hidden {
+#site-nav.nav-hidden {
     opacity: 0;
     pointer-events: none;
     transform: translateY(-120%);
 }
 
-.skip-link[data-astro-cid-ymhdp2rl] {
+.skip-link {
     z-index: 100;
     background: var(--accent-color);
     color: var(--bg-color);
@@ -33,12 +33,12 @@
     left: -9999px;
 }
 
-.skip-link[data-astro-cid-ymhdp2rl]:focus {
+.skip-link:focus {
     top: 0.5rem;
     left: 1rem;
 }
 
-nav[data-astro-cid-ymhdp2rl] {
+nav {
     max-width: min(var(--container-max), 90%);
     background: var(--glass-bg);
     width: auto;
@@ -49,7 +49,7 @@ nav[data-astro-cid-ymhdp2rl] {
     padding: 0.35rem 0.5rem;
 }
 
-nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
+nav ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
     display: flex;
 }
 
-.divider[data-astro-cid-ymhdp2rl] {
+.divider {
     background: var(--border-color);
     flex-shrink: 0;
     width: 1px;
@@ -68,7 +68,7 @@ nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
     margin: 0 0.25rem;
 }
 
-#home[data-astro-cid-ymhdp2rl] a[data-astro-cid-ymhdp2rl] {
+#home a {
     color: var(--primary-text);
     font-weight: 800;
     font-size: var(--font-size-small);
@@ -82,18 +82,18 @@ nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
     display: flex;
 }
 
-#home[data-astro-cid-ymhdp2rl] a[data-astro-cid-ymhdp2rl]:hover {
+#home a:hover {
     background: var(--hover-bg);
     text-decoration: none;
 }
 
-.home-icon[data-astro-cid-ymhdp2rl] {
+.home-icon {
     flex-shrink: 0;
     width: 1rem;
     height: 1rem;
 }
 
-.nav-link[data-astro-cid-ymhdp2rl] {
+.nav-link {
     color: var(--secondary-text);
     font-weight: 600;
     font-size: var(--font-size-small);
@@ -107,34 +107,34 @@ nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
     text-decoration: none !important;
 }
 
-.nav-link[data-astro-cid-ymhdp2rl]:hover {
+.nav-link:hover {
     background: var(--hover-bg);
     color: var(--primary-text);
     text-decoration: none !important;
 }
 
-.nav-link[data-astro-cid-ymhdp2rl].active {
+.nav-link.active {
     background: var(--accent-color-alpha);
     color: var(--accent-color);
 }
 
-.nav-icon-link[data-astro-cid-ymhdp2rl] {
+.nav-icon-link {
     padding: 0.4rem;
 }
 
-.nav-icon-link[data-astro-cid-ymhdp2rl] svg[data-astro-cid-ymhdp2rl] {
+.nav-icon-link svg {
     width: 1rem;
     height: 1rem;
 }
 
 /* Theme Switcher */
-#theme-switcher[data-astro-cid-ymhdp2rl] {
+#theme-switcher {
     align-items: center;
     gap: 0.1rem;
     display: flex;
 }
 
-.theme-btn[data-astro-cid-ymhdp2rl] {
+.theme-btn {
     width: 1.75rem;
     height: 1.75rem;
     color: var(--secondary-text);
@@ -149,17 +149,17 @@ nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
     display: flex;
 }
 
-.theme-btn[data-astro-cid-ymhdp2rl] svg[data-astro-cid-ymhdp2rl] {
+.theme-btn svg {
     width: 0.875rem;
     height: 0.875rem;
 }
 
-.theme-btn[data-astro-cid-ymhdp2rl]:hover {
+.theme-btn:hover {
     background: var(--hover-bg);
     color: var(--primary-text);
 }
 
-.theme-btn[data-astro-cid-ymhdp2rl].active {
+.theme-btn.active {
     background: var(--accent-color-alpha);
     color: var(--accent-color);
 }
@@ -168,14 +168,14 @@ nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
    FOOTER
    ========================================== */
 
-.footer[data-astro-cid-sckkx6r4] {
+.footer {
     border-top: 1px solid var(--border-color);
     text-align: center;
     margin-top: 4rem;
     padding: 3rem 0;
 }
 
-.footer[data-astro-cid-sckkx6r4] p[data-astro-cid-sckkx6r4] {
+.footer p {
     color: var(--secondary-text);
     font-size: var(--font-size-small);
     font-weight: 400;
@@ -509,7 +509,7 @@ input, textarea, select {
    HEADER / HERO
    ========================================== */
 
-.header[data-astro-cid-3ef6ksr2] {
+.header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -519,7 +519,7 @@ input, textarea, select {
     position: relative;
 }
 
-.name[data-astro-cid-3ef6ksr2] {
+.name {
     font-size: var(--hero-size);
     letter-spacing: -0.04em;
     color: var(--primary-text);
@@ -529,22 +529,22 @@ input, textarea, select {
     line-height: 1;
 }
 
-.name-line[data-astro-cid-3ef6ksr2] {
+.name-line {
     display: block;
 }
 
-.name-line[data-astro-cid-3ef6ksr2]:first-child {
+.name-line:first-child {
     margin-bottom: 0.05em;
 }
 
-.name-char[data-astro-cid-3ef6ksr2] {
+.name-char {
     opacity: 0;
     margin-right: 0.01em;
     animation: 0.5s forwards fadeIn;
     display: inline-block;
 }
 
-.title[data-astro-cid-3ef6ksr2] {
+.title {
     font-size: var(--text-size);
     color: var(--secondary-text);
     margin: 1.5rem 0 0;
@@ -552,13 +552,13 @@ input, textarea, select {
     line-height: 1.5;
 }
 
-.hero-links[data-astro-cid-3ef6ksr2] {
+.hero-links {
     gap: 1.5rem;
     margin-top: 2rem;
     display: flex;
 }
 
-.hero-links[data-astro-cid-3ef6ksr2] a[data-astro-cid-3ef6ksr2] {
+.hero-links a {
     color: var(--accent-color);
     font-size: var(--font-size-small);
     letter-spacing: 0.02em;
@@ -570,7 +570,7 @@ input, textarea, select {
     transition: background 0.2s, transform 0.2s;
 }
 
-.hero-links[data-astro-cid-3ef6ksr2] a[data-astro-cid-3ef6ksr2]:hover {
+.hero-links a:hover {
     background: var(--accent-color);
     color: var(--bg-color);
     opacity: 1;
@@ -579,7 +579,7 @@ input, textarea, select {
 }
 
 /* Back to Top Button */
-.back-to-top[data-astro-cid-3ef6ksr2] {
+.back-to-top {
     background: var(--glass-bg);
     width: 2.5rem;
     height: 2.5rem;
@@ -603,13 +603,13 @@ input, textarea, select {
     transform: translateY(10px);
 }
 
-.back-to-top[data-astro-cid-3ef6ksr2].visible {
+.back-to-top.visible {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
 
-.back-to-top[data-astro-cid-3ef6ksr2]:hover {
+.back-to-top:hover {
     background: var(--accent-color);
     color: var(--bg-color);
     border-color: var(--accent-color);
@@ -621,7 +621,7 @@ input, textarea, select {
    SECTIONS
    ========================================== */
 
-.section-header[data-astro-cid-wk2votdk] {
+.section-header {
     z-index: 10;
     border-bottom: 1px solid var(--border-color);
     justify-content: space-between;
@@ -633,7 +633,7 @@ input, textarea, select {
     position: static;
 }
 
-.section-title[data-astro-cid-wk2votdk] {
+.section-title {
     font-size: var(--section-size);
     color: var(--primary-text);
     letter-spacing: -0.03em;
@@ -644,22 +644,22 @@ input, textarea, select {
     overflow: visible;
 }
 
-.section-title-char[data-astro-cid-wk2votdk] {
+.section-title-char {
     opacity: 0;
     animation: 0.5s forwards fadeIn;
     display: inline-block;
 }
 
-.section-title-char[data-astro-cid-wk2votdk]:first-child { animation-delay: 30ms; }
-.section-title-char[data-astro-cid-wk2votdk]:nth-child(2) { animation-delay: 60ms; }
-.section-title-char[data-astro-cid-wk2votdk]:nth-child(3) { animation-delay: 90ms; }
-.section-title-char[data-astro-cid-wk2votdk]:nth-child(4) { animation-delay: 0.12s; }
-.section-title-char[data-astro-cid-wk2votdk]:nth-child(5) { animation-delay: 0.15s; }
-.section-title-char[data-astro-cid-wk2votdk]:nth-child(6) { animation-delay: 0.18s; }
-.section-title-char[data-astro-cid-wk2votdk]:nth-child(7) { animation-delay: 0.21s; }
-.section-title-char[data-astro-cid-wk2votdk]:nth-child(8) { animation-delay: 0.24s; }
+.section-title-char:first-child { animation-delay: 30ms; }
+.section-title-char:nth-child(2) { animation-delay: 60ms; }
+.section-title-char:nth-child(3) { animation-delay: 90ms; }
+.section-title-char:nth-child(4) { animation-delay: 0.12s; }
+.section-title-char:nth-child(5) { animation-delay: 0.15s; }
+.section-title-char:nth-child(6) { animation-delay: 0.18s; }
+.section-title-char:nth-child(7) { animation-delay: 0.21s; }
+.section-title-char:nth-child(8) { animation-delay: 0.24s; }
 
-.section-number[data-astro-cid-wk2votdk] {
+.section-number {
     color: var(--accent-color);
     letter-spacing: 0.15em;
     white-space: nowrap;
@@ -674,22 +674,22 @@ input, textarea, select {
    PROJECTS
    ========================================== */
 
-.project[data-astro-cid-mspuyifq] {
+.project {
     border-bottom: 1px solid var(--border-color);
     transition: var(--transition-smooth);
     padding: 2rem 0;
     position: relative;
 }
 
-.project[data-astro-cid-mspuyifq]:last-child {
+.project:last-child {
     border-bottom: none;
 }
 
-.project[data-astro-cid-mspuyifq]:hover {
+.project:hover {
     transform: translateX(4px);
 }
 
-.project-number[data-astro-cid-mspuyifq] {
+.project-number {
     color: var(--accent-color-alpha);
     pointer-events: none;
     transition: var(--transition-smooth);
@@ -701,23 +701,23 @@ input, textarea, select {
     right: 0;
 }
 
-.project[data-astro-cid-mspuyifq]:hover .project-number[data-astro-cid-mspuyifq] {
+.project:hover .project-number {
     color: var(--accent-color);
     opacity: 0.2;
 }
 
-.project-content[data-astro-cid-mspuyifq] {
+.project-content {
     grid-template-columns: 1fr;
     align-items: center;
     gap: 1rem;
     display: grid;
 }
 
-.project-info[data-astro-cid-mspuyifq] {
+.project-info {
     padding: 0;
 }
 
-.project-info[data-astro-cid-mspuyifq] h3[data-astro-cid-mspuyifq] {
+.project-info h3 {
     font-size: var(--font-size-x-large);
     color: var(--primary-text);
     letter-spacing: -0.02em;
@@ -726,13 +726,13 @@ input, textarea, select {
     line-height: 1.2;
 }
 
-.project-meta[data-astro-cid-mspuyifq] {
+.project-meta {
     gap: 0.75rem;
     margin-bottom: 0.75rem;
     display: flex;
 }
 
-.project-tech[data-astro-cid-mspuyifq] {
+.project-tech {
     color: var(--accent-color);
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -744,7 +744,7 @@ input, textarea, select {
     padding: 0;
 }
 
-.project-description[data-astro-cid-mspuyifq] {
+.project-description {
     color: var(--secondary-text);
     line-height: 1.7;
     font-size: var(--font-size-small);
@@ -752,14 +752,14 @@ input, textarea, select {
     font-weight: 400;
 }
 
-.project-links[data-astro-cid-mspuyifq] {
+.project-links {
     flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
     display: flex;
 }
 
-.project-link[data-astro-cid-mspuyifq] {
+.project-link {
     color: var(--accent-color);
     font-size: var(--font-size-small);
     background: var(--accent-color-alpha);
@@ -770,14 +770,14 @@ input, textarea, select {
     text-decoration: none !important;
 }
 
-.project-link[data-astro-cid-mspuyifq]:hover {
+.project-link:hover {
     background: var(--accent-color);
     color: var(--bg-color);
     opacity: 1;
     text-decoration: none !important;
 }
 
-.star-badge[data-astro-cid-mspuyifq] {
+.star-badge {
     background: var(--hover-bg);
     color: var(--secondary-text);
     border: 1px solid var(--border-color);
@@ -790,7 +790,7 @@ input, textarea, select {
     display: inline-flex;
 }
 
-.star-badge[data-astro-cid-mspuyifq] svg[data-astro-cid-mspuyifq] {
+.star-badge svg {
     fill: currentColor;
     width: 0.75rem;
     height: 0.75rem;
@@ -800,27 +800,27 @@ input, textarea, select {
    CONTACT
    ========================================== */
 
-.contact-section[data-astro-cid-svshx33u] {
+.contact-section {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-top: 1.5rem;
     display: grid;
 }
 
-.contact-info[data-astro-cid-svshx33u] p[data-astro-cid-svshx33u] {
+.contact-info p {
     font-size: var(--font-size-base);
     color: var(--secondary-text);
     margin-bottom: 1.5rem;
     line-height: 1.7;
 }
 
-.contact-links[data-astro-cid-svshx33u] {
+.contact-links {
     flex-direction: column;
     gap: 0.5rem;
     display: flex;
 }
 
-.contact-link[data-astro-cid-svshx33u] {
+.contact-link {
     color: var(--accent-color);
     border-radius: var(--rounded-corner-small);
     transition: var(--transition-smooth);
@@ -834,20 +834,20 @@ input, textarea, select {
     text-decoration: none !important;
 }
 
-.contact-link[data-astro-cid-svshx33u]:hover {
+.contact-link:hover {
     background: var(--accent-color-alpha);
     transform: translateX(4px);
     text-decoration: none !important;
 }
 
-.contact-form[data-astro-cid-svshx33u] {
+.contact-form {
     flex-direction: column;
     gap: 0.75rem;
     display: flex;
 }
 
-.form-group[data-astro-cid-svshx33u] input[data-astro-cid-svshx33u],
-.form-group[data-astro-cid-svshx33u] textarea[data-astro-cid-svshx33u] {
+.form-group input,
+.form-group textarea {
     border: 1px solid var(--border-color);
     border-radius: var(--rounded-corner-small);
     background: var(--bg-color);
@@ -860,19 +860,19 @@ input, textarea, select {
     padding: 0.75rem 1rem;
 }
 
-.form-group[data-astro-cid-svshx33u] input[data-astro-cid-svshx33u]:focus,
-.form-group[data-astro-cid-svshx33u] textarea[data-astro-cid-svshx33u]:focus {
+.form-group input:focus,
+.form-group textarea:focus {
     border-color: var(--accent-color);
     box-shadow: 0 0 0 3px var(--accent-color-alpha);
     outline: none;
 }
 
-.form-group[data-astro-cid-svshx33u] input[data-astro-cid-svshx33u]::placeholder,
-.form-group[data-astro-cid-svshx33u] textarea[data-astro-cid-svshx33u]::placeholder {
+.form-group input::placeholder,
+.form-group textarea::placeholder {
     color: var(--tertiary-text);
 }
 
-.submit-button[data-astro-cid-svshx33u] {
+.submit-button {
     background: var(--accent-color);
     color: var(--bg-color);
     font-family: var(--font-family);
@@ -886,19 +886,19 @@ input, textarea, select {
     font-weight: 600;
 }
 
-.submit-button[data-astro-cid-svshx33u]:hover {
+.submit-button:hover {
     filter: brightness(1.1);
     box-shadow: var(--shadow-raised);
     transform: translateY(-1px);
 }
 
-.submit-button[data-astro-cid-svshx33u]:disabled {
+.submit-button:disabled {
     opacity: 0.6;
     cursor: not-allowed;
     transform: none !important;
 }
 
-.notification[data-astro-cid-svshx33u] {
+.notification {
     border-radius: var(--rounded-corner);
     box-shadow: var(--shadow-raised);
     z-index: 10000;
@@ -913,11 +913,11 @@ input, textarea, select {
     right: 1.5rem;
 }
 
-.notification-success[data-astro-cid-svshx33u] {
+.notification-success {
     background: rgba(46, 160, 67, 0.9);
 }
 
-.notification-error[data-astro-cid-svshx33u] {
+.notification-error {
     background: rgba(218, 54, 51, 0.9);
 }
 
@@ -925,7 +925,7 @@ input, textarea, select {
    ACHIEVEMENTS
    ========================================== */
 
-.achievement-card[data-astro-cid-c3c2365s] {
+.achievement-card {
     border: 1px solid var(--border-color);
     background: var(--glass-bg);
     -webkit-backdrop-filter: var(--blur);
@@ -939,19 +939,19 @@ input, textarea, select {
     position: relative;
 }
 
-.achievement-card[data-astro-cid-c3c2365s]:hover {
+.achievement-card:hover {
     box-shadow: var(--shadow-raised);
     border-color: var(--accent-color);
     transform: translateY(-3px);
 }
 
-.achievement-content[data-astro-cid-c3c2365s] {
+.achievement-content {
     flex-direction: column;
     flex: 1;
     display: flex;
 }
 
-.achievement-header[data-astro-cid-c3c2365s] {
+.achievement-header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
@@ -960,7 +960,7 @@ input, textarea, select {
     display: flex;
 }
 
-h3[data-astro-cid-c3c2365s] {
+.achievement-card h3 {
     font-size: var(--font-size-base);
     color: var(--primary-text);
     letter-spacing: -0.01em;
@@ -968,7 +968,7 @@ h3[data-astro-cid-c3c2365s] {
     line-height: 1.3;
 }
 
-p[data-astro-cid-c3c2365s] {
+.achievement-card p {
     color: var(--secondary-text);
     font-size: var(--font-size-small);
     margin-top: auto;
@@ -980,32 +980,32 @@ p[data-astro-cid-c3c2365s] {
    OTHER SECTIONS
    ========================================== */
 
-.section[data-astro-cid-j7pv25f6] {
+.section {
     padding: var(--section-padding);
     position: relative;
 }
 
-.about-content[data-astro-cid-j7pv25f6] p[data-astro-cid-j7pv25f6] {
+.about-content p {
     font-size: var(--font-size-large);
     color: var(--secondary-text);
     max-width: 38rem;
     line-height: 1.8;
 }
 
-.projects-grid[data-astro-cid-j7pv25f6] {
+.projects-grid {
     grid-template-columns: 1fr;
     gap: 0;
     display: grid;
 }
 
-.skills-list[data-astro-cid-j7pv25f6] {
+.skills-list {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-top: 1.5rem;
     display: flex;
 }
 
-.skill-tag[data-astro-cid-j7pv25f6] {
+.skill-tag {
     font-size: var(--font-size-small);
     color: var(--accent-color);
     background: var(--accent-color-alpha);
@@ -1015,28 +1015,28 @@ p[data-astro-cid-c3c2365s] {
     font-weight: 600;
 }
 
-.skill-tag[data-astro-cid-j7pv25f6]:hover {
+.skill-tag:hover {
     background: var(--accent-color);
     color: var(--bg-color);
     opacity: 1;
     transform: translateY(-1px);
 }
 
-.achievements-grid[data-astro-cid-j7pv25f6] {
+.achievements-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1.5rem;
     display: grid;
 }
 
-.misc-grid[data-astro-cid-j7pv25f6] {
+.misc-grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1rem;
     margin-top: 2rem;
     display: grid;
 }
 
-.misc-item[data-astro-cid-j7pv25f6] {
+.misc-item {
     background: var(--glass-bg);
     -webkit-backdrop-filter: var(--blur);
     border: 1px solid var(--border-color);
@@ -1047,13 +1047,13 @@ p[data-astro-cid-c3c2365s] {
     position: relative;
 }
 
-.misc-item[data-astro-cid-j7pv25f6]:hover {
+.misc-item:hover {
     box-shadow: var(--shadow-raised);
     border-color: var(--accent-color);
     transform: translateY(-4px);
 }
 
-.misc-number[data-astro-cid-j7pv25f6] {
+.misc-number {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--accent-color);
@@ -1063,7 +1063,7 @@ p[data-astro-cid-c3c2365s] {
     display: block;
 }
 
-.misc-item[data-astro-cid-j7pv25f6] h3[data-astro-cid-j7pv25f6] {
+.misc-item h3 {
     font-size: var(--font-size-large);
     color: var(--primary-text);
     margin-bottom: 0.75rem;
@@ -1071,14 +1071,14 @@ p[data-astro-cid-c3c2365s] {
     line-height: 1.3;
 }
 
-.misc-content[data-astro-cid-j7pv25f6] {
+.misc-content {
     color: var(--secondary-text);
     line-height: 1.7;
     font-size: var(--font-size-small);
     font-weight: 400;
 }
 
-.highlight[data-astro-cid-j7pv25f6] {
+.highlight {
     color: var(--accent-color);
     font-weight: 600;
 }
@@ -1093,87 +1093,87 @@ p[data-astro-cid-c3c2365s] {
         --section-padding: 4rem 0;
     }
 
-    #site-nav[data-astro-cid-ymhdp2rl] {
+    #site-nav {
         padding: 0 0.5rem;
         top: 0.5rem;
     }
 
-    nav[data-astro-cid-ymhdp2rl] {
+    nav {
         border-radius: var(--rounded-corner);
         max-width: 100%;
         padding: 0.35rem;
     }
 
-    nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
+    nav ul {
         gap: 0.1rem;
     }
 
-    .nav-link[data-astro-cid-ymhdp2rl],
-    #home[data-astro-cid-ymhdp2rl] a[data-astro-cid-ymhdp2rl] {
+    .nav-link,
+    #home a {
         padding: 0.35rem 0.5rem;
         font-size: 0.75rem;
     }
 
-    #home[data-astro-cid-ymhdp2rl] a[data-astro-cid-ymhdp2rl] span[data-astro-cid-ymhdp2rl],
-    .divider[data-astro-cid-ymhdp2rl] {
+    #home a span,
+    .divider {
         display: none;
     }
 
-    .header[data-astro-cid-3ef6ksr2] {
+    .header {
         min-height: 70vh;
         padding-top: 3rem;
     }
 
-    .hero-links[data-astro-cid-3ef6ksr2] {
+    .hero-links {
         flex-wrap: wrap;
         gap: 0.75rem;
     }
 
-    .section-header[data-astro-cid-wk2votdk] {
+    .section-header {
         margin-bottom: 2rem;
         padding: 1.5rem 0 1rem;
     }
 
-    .about-content[data-astro-cid-j7pv25f6] p[data-astro-cid-j7pv25f6] {
+    .about-content p {
         font-size: var(--font-size-base);
     }
 
-    .achievements-grid[data-astro-cid-j7pv25f6] {
+    .achievements-grid {
         grid-template-columns: 1fr;
     }
 
-    .project[data-astro-cid-mspuyifq] {
+    .project {
         padding: 1.5rem 0;
     }
 
-    .project-number[data-astro-cid-mspuyifq] {
+    .project-number {
         font-size: 3rem;
     }
 
-    .misc-grid[data-astro-cid-j7pv25f6] {
+    .misc-grid {
         grid-template-columns: 1fr;
     }
 
-    .contact-section[data-astro-cid-svshx33u] {
+    .contact-section {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
-    .footer[data-astro-cid-sckkx6r4] {
+    .footer {
         margin-top: 2rem;
         padding: 2rem 0;
     }
 }
 
 @media (max-width: 480px) {
-    nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl] {
+    nav ul {
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         flex-wrap: nowrap;
         overflow-x: auto;
     }
 
-    nav[data-astro-cid-ymhdp2rl] ul[data-astro-cid-ymhdp2rl]::-webkit-scrollbar {
+    nav ul::-webkit-scrollbar {
         display: none;
     }
 }
