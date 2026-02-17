@@ -1,45 +1,50 @@
 # 🚀 Slayz — Personal Portfolio
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Age](https://img.shields.io/badge/Age-16-blue)
-![OS](https://img.shields.io/badge/OS-Arch_Linux-blue?logo=arch-linux)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+![OS](https://img.shields.io/badge/OS-Arch_Linux-blue)
 
-Welcome to the repository of my personal website. I am a 16-year-old French student passionate about game development, web applications, automation, and cybersecurity (CTF).
+A minimalist and modern portfolio website for a 16-year-old French student passionate about game development, web applications, and cybersecurity.
 
-**🔗 [Live Demo](https://slayzbs.github.io/mywebsite/)**
+**🔗 [Live Website](https://slayzbs.github.io/mywebsite/)**
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack
 
-### **Frontend**
-* **HTML5 / CSS3**: Semantic architecture and responsive design (Glassmorphism).
-* **JavaScript (ES6+)**: Scroll animations, dynamic project management, and API integration.
-* **Google Fonts**: Inter & JetBrains Mono for a clean developer aesthetic.
-
-### **Setup & Workflow**
-* **OS**: Arch Linux (AMD Ryzen 7 5800XT / RX 6600).
-* **AI Assisted**: Gemini 3.0 (Frontend), ChatGPT 5.1 (Structure), Claude 4.5 (Backend).
-* **Deployment**: Hosted on GitHub Pages.
+* **HTML5 / CSS3**: Custom styling with Glassmorphism and CSS variables.
+* **JavaScript (Vanilla)**: Theme management and scroll interactions.
+* **Fonts**: Inter & JetBrains Mono.
 
 ---
 
-## ✨ Key Features
+## ✨ Features included in the code
 
-* **Dark/Light Mode**: Full theme management with `localStorage` persistence.
-* **Dynamic GitHub Stars**: A custom script fetches real-time star counts for my projects via the GitHub API with a 15-minute cache system.
-* **Smooth Animations**: Uses **Intersection Observer API** for scroll-triggered effects (fade-in, slide-up).
-* **Reading Progress Bar**: Visual indicator at the top of the page.
-* **Smart Navigation**: Optimized sticky navbar that hides on scroll-down and reveals on scroll-up.
+* **Dual Theme Support**: Dark and Light mode toggles with persistence via `localStorage`.
+* **Reading Progress Bar**: A visual bar at the top showing scroll depth.
+* **Navigation Logic**: 
+    * Smooth scrolling to sections.
+    * Auto-hiding navbar when scrolling down (reveals when scrolling up).
+    * Back-to-top button.
+* **Dynamic Animations**:
+    * Character-by-character animation for the hero name.
+    * Intersection Observer to trigger "fade-in" and "slide-up" animations on scroll.
+* **Project Rendering**: Projects are managed via a JavaScript array for easy updates.
 
 ---
 
 ## 📂 Project Structure
 
-```text
-.
-├── index.html      # Main structure & SEO
-├── style.css       # Design, variables, and animations
-├── script.js       # Logic, theme switching, and API hydration
-└── favicon.png     # Visual identity
+* `index.html`: The core structure and SEO meta tags.
+* `script.js`: Handles theme switching, animations, and project injection.
+* `style.css`: Contains the layout, responsive design, and animations.
+
+---
+
+## 📧 Contact
+
+* **Email**: bs.slayz.bs@gmail.com
+* **Discord**: [Join server](https://discord.gg/zhzqy6Snn9)
+* **GitHub**: [@slayzbs](https://github.com/slayzbs)
+
+---
+*Created in 2026 by Slayz.*
