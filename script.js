@@ -157,20 +157,17 @@ if ('IntersectionObserver' in window) {
 const projects = [
     {
         number: '01',
-        title: 'Example',
-        tech: 'go',
-        description: 'Blablabla',
-        github: 'https://github.com/slayzbs/',
-        liveUrl: 'https://',
-        stars: 456
+        title: 'CTF',
+        description: "I'm a CTF enjoyer",
+        CTFtime: 'https://ctftime.org/user/252731',
     },
     {
         number: '02',
-        title: 'Example',
-        tech: 'c#, python',
-        description: 'Blablabla',
+        title: 'Image recognition AI',
+        tech: 'python',
+        description: 'A simple AI for recognizing animal images',
         github: 'https://github.com/slayzbs/',
-        stars: 54
+        stars: 6
     }
 ];
 
