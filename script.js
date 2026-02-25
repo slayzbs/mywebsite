@@ -166,7 +166,7 @@ const projects = [
         title: 'Image recognition AI',
         tech: 'python',
         description: 'A simple AI for recognizing animal images',
-        github: 'https://github.com/slayzbs/',
+        github: 'https://github.com/slayzbs/image-recognition-AI',
         stars: 6
     }
 ];
